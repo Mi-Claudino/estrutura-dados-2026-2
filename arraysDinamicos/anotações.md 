@@ -1,0 +1,8 @@
+Ganha eficiencia mas tem problema com deslocamento, um Array dinamico para aumentar de
+tamanho tem que mudar de lugar onde tenha esse espaço na memória.
+
+*Cinema com amigos, se chega mais um e tá cheio, tem que levantar e achar outro lugar
+
+A princípio sempre dobrar a capacidade, mais eficiente na média.
+
+A princípio sempre diminuir em 1/4 a capacidade, "" ""

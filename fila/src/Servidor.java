@@ -21,7 +21,7 @@ public class Servidor {
 
     public void executar (int ciclos) {
         for (int ciclo = 1; ciclo <= ciclos ; ciclo++) {
-            int novasReq = aleatorio.nextInt(1,100);
+            int novasReq = aleatorio.nextInt(1,N);
             totalReqGeradas += novasReq;
             for (int i = 0; i < novasReq; i++) {
                 fila.enfileirar(String.valueOf(Math.random() * 100));
@@ -43,7 +43,5 @@ public class Servidor {
         IO.println(totalReqGeradas);
 
     }
-
-
 
 }

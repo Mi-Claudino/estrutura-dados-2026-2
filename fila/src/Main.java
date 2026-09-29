@@ -1,6 +1,14 @@
+void main() {
+    Servidor servidor = new Servidor(1, 10, 100);
 
-public class Main {
-
-
+    servidor.executar(1);
+    servidor.relatorio();
 
 }
+
+
+
+
+
+
+
